@@ -33,15 +33,16 @@ Module 3 - Variables and Data Types
    • Identifiers
    • Naming Rules
 
-4. Data Types
-   • int
-   • float
-   • double
-   • char
-   • short
-   • long
-   • signed
-   • unsigned
+   4. Data Types
+      • Introduction to datatypes
+      • int
+      • float
+      • double
+      • char
+      • short
+      • long
+      • signed
+      • unsigned
 
 Module 4 - Operators
 --------------------
