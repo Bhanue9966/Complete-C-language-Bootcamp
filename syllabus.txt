@@ -33,18 +33,17 @@ Module 3 - Variables and Data Types
    • Identifiers
    • Naming Rules
 
-   4. Data Types
-      • Introduction to datatypes
-      • int
-      • float
-      • double
-      • char
-      • short
-      • long
-      • signed
-      • unsigned
+4. Data Types
+   • int
+   • float
+   • double
+   • char
+   • short
+   • long
+   • signed
+   • unsigned
 
-Module 4 - Operators
+Module 5 - Operators
 --------------------
 5. Operators
    • Arithmetic
@@ -56,7 +55,7 @@ Module 4 - Operators
    • Conditional Operator
    • Operator Precedence
 
-Module 5 - Input and Output
+Module 6 - Input and Output
 ---------------------------
 6. Input and Output
    • printf()
@@ -64,7 +63,7 @@ Module 5 - Input and Output
    • Format Specifiers
    • Escape Sequences
 
-Module 6 - Decision Making
+Module 7 - Decision Making
 --------------------------
 7. Control Statements
    • if
@@ -73,7 +72,7 @@ Module 6 - Decision Making
    • else-if Ladder
    • switch
 
-Module 7 - Looping
+Module 8 - Looping
 ------------------
 8. Loops
    • for
@@ -83,7 +82,7 @@ Module 7 - Looping
    • break
    • continue
 
-Module 8 - Functions
+Module 9 - Functions
 --------------------
 9. Functions
    • Declaration
@@ -94,7 +93,7 @@ Module 8 - Functions
    • Call by Value
    • Recursion
 
-Module 9 - Arrays
+Module 10 - Arrays
 -----------------
 10. Arrays
    • One-Dimensional
@@ -102,7 +101,7 @@ Module 9 - Arrays
    • Multidimensional
    • Arrays with Functions
 
-Module 10 - Strings
+Module 11 - Strings
 -------------------
 11. Strings
    • Character Arrays
@@ -113,7 +112,7 @@ Module 10 - Strings
    • strcat()
    • String Handling using Loops
 
-Module 11 - Pointers
+Module 12 - Pointers
 --------------------
 12. Pointers
    • &
@@ -124,7 +123,7 @@ Module 11 - Pointers
    • Strings with Pointers
    • Function Pointers (Basic)
 
-Module 12 - Storage Classes
+Module 13 - Storage Classes
 ---------------------------
 13. Storage Classes
    • auto
@@ -134,13 +133,13 @@ Module 12 - Storage Classes
    • Scope
    • Lifetime
 
-Module 13 - User Defined Data Types
+Module 14 - User Defined Data Types
 -----------------------------------
 14. Structures
 15. Unions
 16. Enumerations
 
-Module 14 - Dynamic Memory
+Module 15 - Dynamic Memory
 --------------------------
 17. Dynamic Memory Allocation
    • malloc()
@@ -149,7 +148,7 @@ Module 14 - Dynamic Memory
    • free()
    • Memory Leaks
 
-Module 15 - File Handling
+Module 16 - File Handling
 -------------------------
 18. File Handling
    • Opening Files
@@ -163,7 +162,7 @@ Module 15 - File Handling
    • fputs()
    • Binary Files
 
-Module 16 - Preprocessor
+Module 17 - Preprocessor
 ------------------------
 19. Preprocessor Directives
    • #include
@@ -172,14 +171,14 @@ Module 16 - Preprocessor
    • Conditional Compilation
    • Header Guards
 
-Module 17 - Command Line
+Module 18 - Command Line
 ------------------------
 20. Command Line Arguments
    • argc
    • argv
    • Terminal Input
 
-Module 18 - Bitwise Programming
+Module 19 - Bitwise Programming
 -------------------------------
 21. Bitwise Programming
    • &
@@ -193,7 +192,7 @@ Module 18 - Bitwise Programming
    • Clearing Bits
    • Toggling Bits
 
-Module 19 - Advanced Pointers
+Module 20 - Advanced Pointers
 -----------------------------
 22. Advanced Pointers
    • Double Pointers
@@ -203,7 +202,7 @@ Module 19 - Advanced Pointers
    • Pointer to Array
    • const with Pointers
 
-Module 20 - Memory Management
+Module 21 - Memory Management
 -----------------------------
 23. Memory Management
    • Stack
@@ -214,7 +213,7 @@ Module 20 - Memory Management
    • Buffer Overflow
    • Memory Alignment
 
-Module 21 - Data Structures
+Module 22 - Data Structures
 ---------------------------
 24. Data Structures in C
    • Linked Lists
@@ -224,7 +223,7 @@ Module 21 - Data Structures
    • Graphs
    • Hash Tables
 
-Module 22 - Algorithms
+Module 23 - Algorithms
 ----------------------
 25. Algorithms
    • Searching
@@ -233,7 +232,7 @@ Module 22 - Algorithms
    • Time Complexity
    • Space Complexity
 
-Module 23 - Modular Programming
+Module 24 - Modular Programming
 -------------------------------
 26. Modular Programming
    • Multiple Source Files
@@ -241,7 +240,7 @@ Module 23 - Modular Programming
    • Separate Compilation
    • Makefile Basics
 
-Module 24 - Debugging
+Module 25 - Debugging
 ---------------------
 27. Error Handling and Debugging
    • Compiler Errors
@@ -251,7 +250,7 @@ Module 24 - Debugging
    • assert()
    • Error Codes
 
-Module 25 - Advanced C
+Module 26 - Advanced C
 ----------------------
 28. Advanced C Concepts
    • Type Casting
@@ -262,7 +261,7 @@ Module 25 - Advanced C
    • Variadic Functions
    • Flexible Array Members
 
-Module 26 - Low-Level Programming
+Module 27 - Low-Level Programming
 ---------------------------------
 29. Low-Level Programming
    • Memory Addresses
@@ -271,7 +270,7 @@ Module 26 - Low-Level Programming
    • Struct Padding
    • Bit Fields
 
-Module 27 - System Programming
+Module 28 - System Programming
 ------------------------------
 30. Advanced File and System Programming
    • File Descriptors
@@ -280,7 +279,7 @@ Module 27 - System Programming
    • Signals
    • Threads
 
-Module 28 - Build Tools
+Module 29 - Build Tools
 -----------------------
 31. Build Tools and Libraries
    • GCC
@@ -290,7 +289,7 @@ Module 28 - Build Tools
    • Make
    • CMake
 
-Module 29 - Best Practices
+Module 30 - Best Practices
 --------------------------
 32. Best Practices
    • Readability
@@ -299,7 +298,7 @@ Module 29 - Best Practices
    • Secure Input
    • Reusable Code
 
-Module 30 - Project Practice
+Module 31 - Project Practice
 ----------------------------
 33. Projects
    • Calculator
