@@ -1,0 +1,310 @@
+====================================================
+          C PROGRAMMING COMPLETE ROADMAP
+====================================================
+
+Module 1 - Getting Started
+--------------------------
+1. Introduction to C
+   • What is C?
+   • Features of C
+   • Uses of C
+   • Compiler
+   • Interpreter
+   • IDE
+   • Structure of a C Program
+
+Module 2 - C Basics
+-------------------
+2. Basic Syntax
+   • Header Files
+   • main() Function
+   • Statements
+   • Semicolons
+   • Comments
+   • printf()
+   • scanf()
+
+Module 3 - Variables and Data Types
+-----------------------------------
+3. Variables and Constants
+   • Variables
+   • Constants
+   • Keywords
+   • Identifiers
+   • Naming Rules
+
+4. Data Types
+   • int
+   • float
+   • double
+   • char
+   • short
+   • long
+   • signed
+   • unsigned
+
+Module 4 - Operators
+--------------------
+5. Operators
+   • Arithmetic
+   • Relational
+   • Logical
+   • Assignment
+   • Increment / Decrement
+   • Bitwise
+   • Conditional Operator
+   • Operator Precedence
+
+Module 5 - Input and Output
+---------------------------
+6. Input and Output
+   • printf()
+   • scanf()
+   • Format Specifiers
+   • Escape Sequences
+
+Module 6 - Decision Making
+--------------------------
+7. Control Statements
+   • if
+   • if-else
+   • Nested if
+   • else-if Ladder
+   • switch
+
+Module 7 - Looping
+------------------
+8. Loops
+   • for
+   • while
+   • do-while
+   • Nested Loops
+   • break
+   • continue
+
+Module 8 - Functions
+--------------------
+9. Functions
+   • Declaration
+   • Definition
+   • Function Call
+   • Parameters
+   • Return Values
+   • Call by Value
+   • Recursion
+
+Module 9 - Arrays
+-----------------
+10. Arrays
+   • One-Dimensional
+   • Two-Dimensional
+   • Multidimensional
+   • Arrays with Functions
+
+Module 10 - Strings
+-------------------
+11. Strings
+   • Character Arrays
+   • Input / Output
+   • strlen()
+   • strcpy()
+   • strcmp()
+   • strcat()
+   • String Handling using Loops
+
+Module 11 - Pointers
+--------------------
+12. Pointers
+   • &
+   • *
+   • Pointer Declaration
+   • Pointer Arithmetic
+   • Arrays with Pointers
+   • Strings with Pointers
+   • Function Pointers (Basic)
+
+Module 12 - Storage Classes
+---------------------------
+13. Storage Classes
+   • auto
+   • static
+   • extern
+   • register
+   • Scope
+   • Lifetime
+
+Module 13 - User Defined Data Types
+-----------------------------------
+14. Structures
+15. Unions
+16. Enumerations
+
+Module 14 - Dynamic Memory
+--------------------------
+17. Dynamic Memory Allocation
+   • malloc()
+   • calloc()
+   • realloc()
+   • free()
+   • Memory Leaks
+
+Module 15 - File Handling
+-------------------------
+18. File Handling
+   • Opening Files
+   • Closing Files
+   • Reading
+   • Writing
+   • File Modes
+   • fprintf()
+   • fscanf()
+   • fgets()
+   • fputs()
+   • Binary Files
+
+Module 16 - Preprocessor
+------------------------
+19. Preprocessor Directives
+   • #include
+   • #define
+   • Macros
+   • Conditional Compilation
+   • Header Guards
+
+Module 17 - Command Line
+------------------------
+20. Command Line Arguments
+   • argc
+   • argv
+   • Terminal Input
+
+Module 18 - Bitwise Programming
+-------------------------------
+21. Bitwise Programming
+   • &
+   • |
+   • ^
+   • ~
+   • <<
+   • >>
+   • Bit Masking
+   • Setting Bits
+   • Clearing Bits
+   • Toggling Bits
+
+Module 19 - Advanced Pointers
+-----------------------------
+22. Advanced Pointers
+   • Double Pointers
+   • Function Pointers
+   • Pointer to Pointer
+   • Array of Pointers
+   • Pointer to Array
+   • const with Pointers
+
+Module 20 - Memory Management
+-----------------------------
+23. Memory Management
+   • Stack
+   • Heap
+   • Dangling Pointers
+   • Wild Pointers
+   • Null Pointers
+   • Buffer Overflow
+   • Memory Alignment
+
+Module 21 - Data Structures
+---------------------------
+24. Data Structures in C
+   • Linked Lists
+   • Stacks
+   • Queues
+   • Trees
+   • Graphs
+   • Hash Tables
+
+Module 22 - Algorithms
+----------------------
+25. Algorithms
+   • Searching
+   • Sorting
+   • Recursive Algorithms
+   • Time Complexity
+   • Space Complexity
+
+Module 23 - Modular Programming
+-------------------------------
+26. Modular Programming
+   • Multiple Source Files
+   • Header Files
+   • Separate Compilation
+   • Makefile Basics
+
+Module 24 - Debugging
+---------------------
+27. Error Handling and Debugging
+   • Compiler Errors
+   • Runtime Errors
+   • Logical Errors
+   • gdb
+   • assert()
+   • Error Codes
+
+Module 25 - Advanced C
+----------------------
+28. Advanced C Concepts
+   • Type Casting
+   • typedef
+   • volatile
+   • const
+   • Inline Functions
+   • Variadic Functions
+   • Flexible Array Members
+
+Module 26 - Low-Level Programming
+---------------------------------
+29. Low-Level Programming
+   • Memory Addresses
+   • Registers
+   • Endianness
+   • Struct Padding
+   • Bit Fields
+
+Module 27 - System Programming
+------------------------------
+30. Advanced File and System Programming
+   • File Descriptors
+   • System Calls
+   • Processes
+   • Signals
+   • Threads
+
+Module 28 - Build Tools
+-----------------------
+31. Build Tools and Libraries
+   • GCC
+   • Clang
+   • Static Libraries
+   • Dynamic Libraries
+   • Make
+   • CMake
+
+Module 29 - Best Practices
+--------------------------
+32. Best Practices
+   • Readability
+   • Naming Conventions
+   • Undefined Behavior
+   • Secure Input
+   • Reusable Code
+
+Module 30 - Project Practice
+----------------------------
+33. Projects
+   • Calculator
+   • Student Record System
+   • Banking System
+   • Library Management System
+   • Mini Shell
+   • Text Editor
+   • Data Structure Visualizer

@@ -1,0 +1,358 @@
+````markdown
+# What is C?
+
+## 1. Introduction
+
+Programming languages are used to communicate with computers and instruct them to perform specific tasks. Among the many programming languages available today, **C** is one of the most influential and widely used.
+
+C is often referred to as the **mother of modern programming languages** because many popular languages, such as C++, Java, C#, and Objective-C, have inherited concepts and syntax from C.
+
+Learning C helps you understand how a computer works internally, including memory management, data storage, and program execution. It provides a strong foundation for learning advanced programming concepts and other programming languages.
+
+---
+
+## 2. Definition
+
+**C** is a **general-purpose, procedural, and structured programming language** developed to create efficient and high-performance software.
+
+It allows programmers to write instructions that are executed directly by the computer after compilation. C provides direct access to memory through pointers, making it powerful for developing operating systems, embedded systems, device drivers, and performance-critical applications.
+
+---
+
+## 3. Why Do We Need C?
+
+Before C was developed, programming was often done using Assembly Language, which is difficult to read, write, and maintain.
+
+C was introduced to solve these challenges by providing:
+
+- A simpler and more readable syntax than Assembly Language.
+- Faster program development.
+- Better portability across different computer systems.
+- High execution speed.
+- Direct access to hardware when required.
+
+Today, C continues to be used because it offers an excellent balance between **high-level programming convenience** and **low-level hardware control**.
+
+---
+
+## 4. Real-Life Analogy
+
+Imagine you want to communicate with someone who speaks a different language.
+
+- You know **English**.
+- The other person understands **Japanese**.
+
+To communicate effectively, you need a translator.
+
+Similarly:
+
+- Humans write programs using **C language**.
+- Computers understand only **Machine Language (0s and 1s)**.
+- A **Compiler** acts as the translator, converting C code into machine code that the computer can execute.
+
+Without a programming language like C, writing software would require manually writing binary instructions, which is extremely difficult and time-consuming.
+
+---
+
+## 5. Basic Syntax
+
+The smallest C program looks like this:
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    printf("Hello, World!");
+
+    return 0;
+}
+```
+
+> **Note:** Don't worry if you don't understand every line yet. Each part of this program will be explained in detail in the upcoming topics.
+
+---
+
+## 6. Syntax Breakdown
+
+Let's briefly understand each line.
+
+### `#include <stdio.h>`
+
+Includes the Standard Input Output library, allowing the program to use functions like `printf()` and `scanf()`.
+
+---
+
+### `int`
+
+Specifies that the `main()` function returns an integer value.
+
+---
+
+### `main()`
+
+The entry point of every C program.
+
+Program execution always starts from the `main()` function.
+
+---
+
+### `{ }`
+
+Curly braces define the beginning and end of a block of code.
+
+---
+
+### `printf()`
+
+Displays output on the screen.
+
+---
+
+### `return 0;`
+
+Indicates that the program has completed successfully.
+
+---
+
+## 7. How It Works
+
+When you run a C program, the following steps occur:
+
+1. You write the source code in a `.c` file.
+2. The compiler checks the code for errors.
+3. If there are no errors, it converts the code into machine language.
+4. The operating system loads the executable into memory.
+5. Execution begins from the `main()` function.
+6. Statements execute one by one.
+7. The program ends after executing `return 0;`.
+
+---
+
+## 8. Example 1 (Basic)
+
+### Program
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    printf("Welcome to C Programming!");
+
+    return 0;
+}
+```
+
+### Output
+
+```
+Welcome to C Programming!
+```
+
+### Explanation
+
+- The compiler translates the program into machine code.
+- The program begins executing from `main()`.
+- `printf()` displays the message on the screen.
+- `return 0;` ends the program successfully.
+
+### Conclusion
+
+This example demonstrates the simplest way to display text in a C program.
+
+---
+
+## 9. Example 2 (Intermediate)
+
+### Program
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    printf("Name : Bhanu\n");
+    printf("Course : C Programming\n");
+    printf("Level : Beginner\n");
+
+    return 0;
+}
+```
+
+### Output
+
+```
+Name : Bhanu
+Course : C Programming
+Level : Beginner
+```
+
+### Explanation
+
+- Each `printf()` statement prints one line of text.
+- The `\n` escape sequence moves the cursor to the next line.
+- Statements are executed sequentially from top to bottom.
+
+### Conclusion
+
+A program can contain multiple statements, each performing a specific task.
+
+---
+
+## 10. Example 3 (Real-Time)
+
+### Scenario
+
+Suppose a company wants its software to display a welcome message whenever it starts.
+
+### Program
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    printf("=================================\n");
+    printf("   ABC Technologies Pvt. Ltd.\n");
+    printf(" Welcome to Employee Portal\n");
+    printf("=================================\n");
+
+    return 0;
+}
+```
+
+### Output
+
+```
+=================================
+   ABC Technologies Pvt. Ltd.
+ Welcome to Employee Portal
+=================================
+```
+
+### Explanation
+
+Many real-world applications begin by displaying a welcome screen or banner to users. This program demonstrates that concept using multiple `printf()` statements.
+
+### Conclusion
+
+Even a simple C program can be used to create meaningful user interactions.
+
+---
+
+## 11. Memory Representation
+
+When this program runs:
+
+- The operating system loads the executable into **RAM (Random Access Memory)**.
+- The `main()` function is placed in memory.
+- The CPU executes the instructions one after another.
+- After the program finishes, the memory occupied by the program is released automatically.
+
+At this stage, you don't need to understand memory deeply. We'll revisit this topic later when we study **Memory Management** and **Pointers**.
+
+---
+
+## 12. Common Beginner Mistakes
+
+- Forgetting to include the required header file.
+- Missing the semicolon (`;`) after a statement.
+- Misspelling `main()` as `Main()` or `MAIN()`.
+- Forgetting `return 0;` (allowed in modern C for `main()`, but including it is a good habit).
+- Forgetting curly braces `{}` around the function body.
+
+---
+
+## 13. Best Practices
+
+- Always write clean and properly indented code.
+- Use meaningful comments where necessary.
+- Keep one statement per line.
+- Always compile the program after making changes.
+- Follow a consistent coding style.
+
+---
+
+## 14. Interview Questions
+
+### 1. What is C?
+
+C is a general-purpose, procedural programming language used for developing efficient and high-performance applications.
+
+---
+
+### 2. Who developed C?
+
+Dennis Ritchie developed C at Bell Laboratories in 1972.
+
+---
+
+### 3. Why is C called the mother of programming languages?
+
+Because many modern programming languages, such as C++, Java, C#, and Objective-C, are influenced by C's syntax and concepts.
+
+---
+
+### 4. Is C a high-level or low-level language?
+
+C is considered a **middle-level programming language** because it combines features of both high-level and low-level programming.
+
+---
+
+### 5. Where is C used?
+
+C is widely used in:
+
+- Operating Systems
+- Embedded Systems
+- Device Drivers
+- Database Systems
+- Networking Software
+- Compilers
+- System Utilities
+
+---
+
+## 15. Key Points to Remember
+
+- C is a general-purpose programming language.
+- It was developed by Dennis Ritchie in 1972.
+- C is procedural and structured.
+- Programs begin execution from the `main()` function.
+- C is fast, efficient, and portable.
+- It provides direct memory access through pointers.
+- Many modern programming languages are based on C.
+
+---
+
+## 16. Summary
+
+In this chapter, you learned what C is, why it was created, and why it remains one of the most important programming languages today. You also saw your first C program and gained a basic understanding of how a C program is written and executed. These concepts form the foundation for all the topics that follow in this handbook.
+
+---
+
+## 17. Practice Questions
+
+1. What is C programming language?
+2. Why was C developed?
+3. Who developed C and in which year?
+4. Why is C called a middle-level programming language?
+5. Name five real-world applications of C.
+6. What is the starting point of every C program?
+7. Explain the role of a compiler in C programming.
+
+---
+
+## 18. What's Next?
+
+### Previous Topic
+
+None (This is the first topic.)
+
+### Next Topic
+
+➡️ **01.02 Features of C**
+
+In the next chapter, we'll explore the characteristics that make C one of the most powerful and widely used programming languages.
+````
